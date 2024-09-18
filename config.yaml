@@ -1,0 +1,31 @@
+credentials:
+  usernames:
+    test_user:
+      email: test_user10@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Test User
+      password: user123 # Will be hashed automatically
+    Lewis:
+      email: lewykk2011@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Lewis Karanja
+      password: ynwa247! # Will be hashed automatically
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+pre-authorized:
+  emails:
+  - lewykk2011@gmail.com
+  - test_user10@gmail.com
+
+
+
+
+
+
+
+
+
